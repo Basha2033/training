@@ -7,3 +7,8 @@ eureka:
     registryFetchIntervalSeconds: 5
   instance:
     hostname: localhost
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
