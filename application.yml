@@ -9,7 +9,7 @@ eureka:
     hostname: localhost
     leaseRenewalIntervalInSeconds: 3
     prefer-ip-address: true
-    instanceId: ${spring.application.instance_id: ${random.value}}
+    instanceId: ${spring.application.name}:${server.port}
 spring:
   jpa:
     hibernate:
