@@ -15,3 +15,12 @@ spring:
     hibernate:
       ddl-auto: create-drop
     show-sql: true
+
+
+auth-server:
+  host: localhost
+  port: 7000  
+
+config-server:
+  host: localhost
+  port: 8888 
