@@ -24,3 +24,7 @@ auth-server:
 config-server:
   host: localhost
   port: 8888 
+
+
+encrypt:
+  key: basha
